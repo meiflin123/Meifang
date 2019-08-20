@@ -37,3 +37,7 @@ class CountDownClock extends React.Component {
 
   render () {
     return <div>{this.state.display}</div>
+  }
+}
+
+ReactDOM.render(<App />, document.getElementById('root'))
